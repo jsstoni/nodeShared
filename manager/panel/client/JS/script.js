@@ -6,10 +6,11 @@ $(function() {
       type : "POST",
       url: url,
       data : data,
-      dataType: 'jsonp',
-      success:function(data) {
+      dataType: "jsonp",
+      success : function(data) {
         console.log(data);
       }
     });
+    event.preventDefault();
   });
 });

@@ -2,7 +2,8 @@
 <html>
 <head>
   <title>NODE ADMIN</title>
-  <script src="../client/JS/jquery.js"></script>
+  <script src="client/JS/jquery.js"></script>
+  <script src="client/JS/script.js"></script>
 </head>
 <body>
   <form action="../index.php" method="post" id="login">

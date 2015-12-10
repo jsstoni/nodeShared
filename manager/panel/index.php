@@ -6,14 +6,10 @@
   <script src="client/JS/script.js"></script>
 </head>
 <body>
-  <form action="../index.php" method="post" id="login">
-    <input type="text" name="daemon">
-    <select name="exec">
-      <option value="start">START</option>
-      <option value="stop">STOP</option>
-    </select>
+  <form action="../index.php" method="post" id="admin">
+  	<p>Password Server</p>
     <input type="password" name="pass">
-    <button type="submit">NODE</button>
+    <button type="submit">Entrar</button>
   </form>
 </body>
 </html>

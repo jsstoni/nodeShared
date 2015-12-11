@@ -8,10 +8,17 @@
   <link rel="stylesheet" href="client/CSS/style.css">
 </head>
 <body>
-  <form action="../index.php" method="post" id="admin">
-  	<p>Password Server</p>
-    <input type="password" name="pass">
-    <button type="submit">Entrar</button>
-  </form>
+<div class="login">
+  <div class="panel panel-default">
+  <div class="panel-heading">Node Server</div>
+  <div class="panel-body">
+    <form action="../index.php" method="post" id="admin">
+      <p>Password Server</p>
+      <input type="password" name="pass" class="form-control">
+      <button type="submit" class="btn btn-default">Entrar</button>
+    </form>
+  </div>
+  </div>
+</div>
 </body>
 </html>

@@ -4,6 +4,8 @@
   <title>NODE ADMIN</title>
   <script src="client/JS/jquery.js"></script>
   <script src="client/JS/script.js"></script>
+  <link rel="stylesheet" href="client/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="client/CSS/style.css">
 </head>
 <body>
   <form action="../index.php" method="post" id="admin">
